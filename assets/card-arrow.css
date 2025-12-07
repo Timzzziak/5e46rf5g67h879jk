@@ -1,0 +1,14 @@
+.action_arrow {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.additional_holder {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.additional_holder.expanded {
+    max-height: 1000px;
+}
